@@ -5,11 +5,11 @@ Code Book for Coursera - Getting and Cleaning Data: Course Project
 ## Overview
 
 ### Variable Grouping
-In this code book, the variables are defined in key variables and non-key variables.
+In this code book, the variables are defined as *key variables* and *non-key variables*.
 
 #### Key Variables
 
-- ` activity ` : Activity label observed by human, factor (6 levels):
+- ` activity ` : Activity label observed by human, factor (6 levels) as follows:
   1. WALKING
   2. WALKING_UPSTAIRS
   3. WALKING_DOWNSTAIRS
@@ -20,9 +20,9 @@ In this code book, the variables are defined in key variables and non-key variab
 
 #### Non-key Variables
 
-The description of the non-key variables is grouped into 10 categories (the number in parentheses denotes the number of variables in that category)..  The variables in group 1 through 6 are time-domain signals. The variables in Group 7 and 9 are produced by a Fast Fourie Transform (FFT) algorithm to convert the original time domain signals to the frequency domain.
+The description of the non-key variables is grouped into 10 categories (the number in parentheses denotes the number of variables in that category).  The variables in group 1 through 6 are time-domain signals. The variables in Group 7 and 9 are produced by a Fast Fourie Transform (FFT) algorithm to convert the original time domain signals to the frequency domain.
 
-The values of those non-key variables are normalized raging from -1 to 1, thus have no unit.
+The values of those non-key variables are normalized to range from -1 to 1, thus have no unit.
 
  1. Body Linear Acceleration Variables (6)
  2. Gravity Linear Acceleration Variables (6)
