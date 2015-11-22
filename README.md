@@ -31,7 +31,7 @@ At Step 5, it writes a text file with the file name "summary.txt" in the R worki
 ### Prerequisites before Evaluating the Submitted Work
 1. Retrieve all data files specified in the instruction (refer the data source links above if necessary)
 2. Extract and place them under the R working directory
-	- The following files should be located in the R working directory in order for the R script to work correctly:
+	- The following files should be located in the R working directory and sub folders ('test' and 'train') in order for the R script to work correctly:
 		- `features_info.txt`
 		- `features.txt`
 		- `activity_labels.txt`
