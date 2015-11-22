@@ -73,11 +73,12 @@ View(result)
 
 *In this example, it is named 'result' but you can use any valid name.*
 - Verify "summary.txt" is also created in the working directory
-- Type the following command to load the text file into another data frame:
+- Type the following commands to load the text file into another data frame and review:
 
-```result2 <- read.table("summary.txt", header = TRUE)```
-
-- Type `View(result2)`
+```
+result2 <- read.table("summary.txt", header = TRUE)
+View(result2)
+```
 
 #### 2. Verify if the Submitted Dataset Meets the Tidy Data Principles
 A tidy dataset should meet the tidy data principles introduced in week 1 as follows:
