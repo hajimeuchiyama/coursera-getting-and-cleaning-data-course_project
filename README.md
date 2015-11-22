@@ -8,8 +8,6 @@ Coursera - Getting and Cleaning Data: Course Project
     - `run_analysis.R` (R script code)
     - `README.md` (this file)
     - `CodeBook.`md (code book)
-- Created on: 11/17/2015
-- Last modified on: 11/19/2015
 - Data source URL: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 - Data for the course project:
