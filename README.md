@@ -53,7 +53,13 @@ At Step 5, it writes a text file with the file name "summary.txt" in the R worki
 
 #### 1. Verify the Performance of the submitted R Script
 
-- In R console, type the following command:   
+- In R console, `source` the downloadwd `run_analysis.R` file by running the following command.
+
+```
+source(run_analysis)
+```
+
+- Execute `run_analysis` script.   
 
 ` run_analysis()`
 
