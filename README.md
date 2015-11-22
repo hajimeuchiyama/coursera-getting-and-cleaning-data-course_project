@@ -50,15 +50,23 @@ At Step 5, it writes a text file with the file name "summary.txt" in the R worki
   - `dplyr`
 
 ### How to Verify the Submitted Work
+
 #### 1. Verify the Performance of the submitted R Script
+
 - In R console, type the following command:   
-``` run_analysis()```
+
+` run_analysis()`
+
 - Return object is a data frame required by Step 5. Verify the contents by typing the following command:
-```View(result)```
+
+`View(result)`
+
 *In this example, it is named 'result' but you can use any valid name.*
 - Verify "summary.txt" is also created in the working directory
 - Type the following command to load the text file into another data frame:
+
 ```result2 <- read.table("summary.txt", header = TRUE)```
+
 - Type `View(result2)`
 
 #### 2. Verify if the Submitted Dataset Meets the Tidy Data Principles
