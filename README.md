@@ -90,9 +90,9 @@ Review the code book (`CodeBook.md`) and the submitted tidy data set to determin
 
 ### References
 
-(https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/).
+David Hood's guidline: https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
 
-Tidy Data: 
+Hadley Wickham'S Tidy Data PDF: http://vita.had.co.nz/papers/tidy-data.pdf
 
 
 ------------------------------
