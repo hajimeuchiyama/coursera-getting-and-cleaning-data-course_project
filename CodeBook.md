@@ -19,7 +19,7 @@ The variables are categorized as *key variables* or *non-key variables*.  The su
 
 ### Non-key Variables
 
-The description of the non-key variables is grouped into 10 categories (the number in parentheses denotes the number of variables in that category).  The variables in group 1 through 6 are time-domain signals. The variables in Group 7 and 9 are produced by a Fast Fourie Transform (FFT) algorithm to convert the original time domain signals to the frequency domain.
+The description of the non-key variables is grouped into 10 categories (the number in parentheses denotes the number of variables in that category).  The variables in group 1 through 6 are time-domain signals. The variables in Group 7 through 9 are produced by a Fast Fourie Transform (FFT) algorithm to convert the original time domain signals to the frequency domain.
 
 The values of those non-key variables are normalized to range from -1 to 1, thus have no units.
 
