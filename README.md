@@ -43,7 +43,7 @@ At Step 5, it writes a text file with the file name "summary.txt" in the R worki
 		- `test/subject_test.txt`
     - The directory structure and all file names must be intact as specified since they are referenced in a *hard-coded* manner in the R script.  Do not change any of these, otherwise the R script will not work properly.
 3. Download the submitted R script ("run_analysis.R") and save it in the R working directory.
-4. The R script uses the following R packages. Install them if not done yet.
+4. The R script uses the following R packages. Install them in your system if not done yet.
   - `plyr`
   - `dplyr`
 
@@ -60,7 +60,7 @@ source(run_analysis)
 - Execute `run_analysis` script.   
 
 ```
-run_analysis()
+result <- run_analysis()
 ```
 
 - Return object is a data frame required by Step 5. Verify the contents by typing the following command:
@@ -68,9 +68,9 @@ run_analysis()
 ```
 View(result)
 ```
-
 *In this example, it is named 'result' but you can use any valid name.*
-- Verify "summary.txt" is also created in the working directory
+
+- Verify `summary.txt` is also created in the working directory
 - Type the following commands to load the text file into another data frame and review:
 
 ```
