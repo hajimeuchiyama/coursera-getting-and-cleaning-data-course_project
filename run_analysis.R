@@ -75,7 +75,7 @@ activity.v <- as.factor(mapvalues(y.v, c(1:6), activityLabels.v))
 features.rn.v <- gsub("-(mean|std)\\(\\)-([XYZ])", "_\\2axis_\\1", feature.val.v)
 features.rn.v <- gsub("-(mean|std)\\(\\)", "_\\1", features.rn.v)
 
-# Add renamed features to the data set
+# Replace column names of the data set with the renamed features
 names(harusMergedtrim.df) <- features.rn.v
 
 # Read train/test subject IDs and combine them
@@ -92,9 +92,8 @@ harusSummary.df <- harusMergedtrim.df %>%
         group_by(activity, subject) %>%
         summarize_each(funs(mean))
 
+# Write a text file 'summary.txt' in the working directory
 write.table(harusSummary.df, file = "./summary.txt", row.names = FALSE)
-dput(harusSummary.df, file = "./summary_object.txt")
-
 
 return(harusSummary.df)
 
