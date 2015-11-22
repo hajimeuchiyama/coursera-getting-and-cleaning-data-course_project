@@ -40,7 +40,7 @@ At Step 5, it writes a text file with the file name "summary.txt" in the R worki
 		- `train/subject_train.txt`
 		- `test/X_test.txt`
 		- `test/y_test.txt`
-		- `test/subject_test.txt
+		- `test/subject_test.txt`
     - The directory structure and all file names must be intact as specified since they are referenced in a *hard-coded* manner in the R script.  Do not change any of these, otherwise the R script will not work properly.
 3. Download the submitted R script ("run_analysis.R") and save it in the R working directory.
 4. The R script uses the following R packages. Install them if not done yet.
