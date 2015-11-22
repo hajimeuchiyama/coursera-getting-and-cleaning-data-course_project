@@ -53,7 +53,7 @@ At Step 5, it writes a text file with the file name "summary.txt" in the R worki
 
 #### 1. Verify the Performance of the submitted R Script
 
-- In R console, `source` the downloadwd `run_analysis.R` file by running the following command.
+- In R console, `source` the downloaded `run_analysis.R` file by running the following command.
 
 ```
 source(run_analysis)
@@ -61,11 +61,15 @@ source(run_analysis)
 
 - Execute `run_analysis` script.   
 
-` run_analysis()`
+```
+run_analysis()
+```
 
 - Return object is a data frame required by Step 5. Verify the contents by typing the following command:
 
-`View(result)`
+```
+View(result)
+```
 
 *In this example, it is named 'result' but you can use any valid name.*
 - Verify "summary.txt" is also created in the working directory
