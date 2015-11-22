@@ -76,7 +76,7 @@ A tidy dataset should meet the tidy data principles introduced in week 1 as foll
  - Each different observation of that variable should be in a different row
 
 #### 3. Verify if the variables are named descriptively
-Review the code book (`CodeBook.`md) and the submitted tidy data set to determine if the variables names are descriptive.
+Review the code book (`CodeBook.md`) and the submitted tidy data set to determine if the variables names are descriptive.
 
 ### References
 
